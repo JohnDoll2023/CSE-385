@@ -23,9 +23,17 @@ GO
 
 */
 
-SELECT CustID
-FROM Customers
-
+/*
+SELECT  o.CustID, 
+        o.OrderID, 
+        od.Quantity, 
+        i.Title, 
+        i.UnitPrice
+FROM Orders o        
+    JOIN OrderDetails od    ON o.OrderID = od.OrderID
+    JOIN Items i            ON od.ItemID = i.ItemID
+ORDER BY o.CustID, o.OrderID
+*/
 
 
 /* ---------------------------------------------------------------------- Q2
@@ -46,6 +54,14 @@ FROM Customers
 */
 
 
+SELECT  o.CustID,
+        [TotalAmountPaid] = od.Quantity * i.UnitPrice,
+        [TotalOrders] = COUNT(DISTINCT o.OrderID)
+FROM Orders o           
+    JOIN OrderDetails od    ON o.OrderID = od.OrderID
+    JOIN Items i            ON i.ItemID = od.ItemID
+GROUP BY o.CustID
+ORDER BY o.CustID
 
 
 
@@ -54,9 +70,12 @@ FROM Customers
 
     0 Rows returned
 */
-
-
-
+/*
+SELECT c.custID
+FROM Customers c
+    LEFT JOIN Orders o ON c.CustID = o.CustID
+WHERE o.OrderID IS NULL
+*/
 
 
 
@@ -75,11 +94,17 @@ GO
     Sonja       Martinez      2841015.55
     Andrew       Markasian    2165620.04
 */
+/*
+SELECT TOP(3) 
+        sr.RepFirstName, 
+        sr.RepLastName, 
+        [TotalSales] = SUM(st.SalesTotal)
+FROM SalesReps sr
+    JOIN SalesTotals st ON sr.RepID = st.RepID
+GROUP BY sr.RepID, sr.RepFirstName, sr.RepLastName
+ORDER BY SUM(st.SalesTotal) DESC
 
-
-
-
-
+*/
 
 
 
@@ -96,4 +121,11 @@ GO
     2015    4109980.00
     2014    3286197.85
     2016    2003659.02
+*/
+/*
+SELECT  st.SalesYear,
+        [TotalSales] = SUM(st.SalesTotal)
+FROM SalesTotals st
+GROUP BY st.SalesYear
+ORDER BY SUM(st.SalesTotal) DESC
 */
