@@ -63,6 +63,18 @@ FROM Orders o
 GROUP BY o.CustID
 ORDER BY o.CustID
 
+--orders that dont have items
+SELECT o.*
+FROM Orders o
+WHERE o.OrderID NOT IN (SELECT OrderID FROM OrderDetails)
+
+--better version
+SELECT *
+FROM Orders o
+    LEFT JOIN OrderDetails od ON o.OrderID = od.OrderID --if take out LEFT returns 1 less row, the null row
+WHERE od.OrderID IS NULL
+
+
 
 
 /* ---------------------------------------------------------------------- Q3
