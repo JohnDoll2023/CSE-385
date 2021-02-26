@@ -18,7 +18,7 @@ GO
 	Where the invoice date was in February of 2016
 */
 
-SELECT 	[Invoices] = COUNT(InvoiceID),
+SELECT 	[Invoices] 	      = COUNT(InvoiceID),
 		[AvgInvoiceTotal] = AVG(InvoiceTotal),
 		[SumInvoiceTotal] = SUM(InvoiceTotal),
 		[MaxInvoiceTotal] = MAX(InvoiceTotal),
@@ -84,8 +84,8 @@ ORDER BY TotalPayments DESC
 
 SELECT TOP(10) WITH TIES
 		VendorName,
-		[InvoiceCount] = COUNT(DISTINCT i.InvoiceID), 
-		[InvoiceSum] =  SUM(i.InvoiceTotal)
+		COUNT(DISTINCT i.InvoiceID) AS InvoiceCount, 
+		SUM(i.InvoiceTotal) AS InvoiceSum
 FROM Vendors v
 	JOIN Invoices i ON v.VendorID = i.VendorID
 GROUP BY VendorName
@@ -134,8 +134,7 @@ ORDER BY LineItemCount DESC
 	the AccountNo and the total for all rows
 */
 
-SELECT AccountNo
+SELECT 	AccountNo,
+		[TotalInvoiceLineItemAmount] = SUM(InvoiceLineItemAmount)
 FROM InvoiceLineItems
 GROUP BY AccountNo WITH ROLLUP
-
-
