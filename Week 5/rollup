@@ -1,0 +1,81 @@
+USE Examples
+
+/*
+SELECT  SalesYear,
+        [TotalSalesAmount]  = SUM(SalesTotal),
+        [SalesCount]        = COUNT(*),
+        [AvgSalesAmount]    = AVG(SalesTotal),
+        [MaxSales]          = MAX(SalesTotal),
+        [MinSales]          = MIN(SalesTotal) 
+FROM SalesTotals
+GROUP BY RepID, SalesYear
+*/
+
+USE ProductOrders
+
+/*
+SELECT  [CustOrderCount]    = COUNT(DISTINCT o.OrderID),
+        [Average]           = AVG(UnitPrice * Quantity)
+FROM Orders o, OrderDetails od, Items i
+WHERE   o.OrderID = od.OrderID AND
+        od.ItemID = i.ItemID AND
+        OrderDate BETWEEN '2-1-2015' AND DATEADD(day, -1, '3-1-2015') -- gives us last day of feb
+*/
+
+/*
+SELECT  CustID,
+        [Average] = AVG(UnitPrice * Quantity)
+FROM Orders o, OrderDetails od, Items i
+WHERE   o.OrderID = od.OrderID AND
+        od.ItemID = i.ItemID
+GROUP BY CustID
+HAVING AVG(UnitPrice * Quantity) > 20
+*/
+
+/*
+SELECT 'John''s House' --escape character is   '    this will return John's House
+*/
+
+/*
+SELECT TOP(5) WITH TIES --must have order by
+        CustID,
+        [Count]     = COUNT(DISTINCT o.OrderID), 
+        [Average]   = AVG(UnitPrice * Quantity)
+FROM Orders o, OrderDetails od, Items i
+WHERE   o.OrderID = od.OrderID AND
+        od.ItemID = i.ItemID
+GROUP BY CustID
+ORDER BY [Average] DESC
+*/
+
+/*
+SELECT  CustID,
+        [Count]     = COUNT(DISTINCT o.OrderID), 
+        [Average]   = AVG(UnitPrice * Quantity)
+FROM Orders o, OrderDetails od, Items i
+WHERE   o.OrderID = od.OrderID AND
+        od.ItemID = i.ItemID
+GROUP BY CustID
+ORDER BY [Average] DESC
+    OFFSET 0 ROWS --dont skip any rows
+        FETCH NEXT 5 ROWS ONLY
+*/
+
+/*
+SELECT  CustID,
+        [Count]     = COUNT(DISTINCT o.OrderID), 
+        [Average]   = AVG(UnitPrice * Quantity)
+FROM Orders o, OrderDetails od, Items i
+WHERE   o.OrderID = od.OrderID AND
+        od.ItemID = i.ItemID
+GROUP BY CustID
+HAVING COUNT(DISTINCT o.OrderID) < 3
+ORDER BY [Average] DESC
+*/
+
+SELECT  CustID,
+        [SumOfUnitPrice]    = SUM(UnitPrice)
+FROM Orders o, OrderDetails od, Items i
+WHERE   o.OrderID = od.OrderID AND
+        od.ItemID = i.ItemID
+GROUP BY CustID WITH ROLLUP --sums all rows and gives us a final row with complete total and nulls for other values
