@@ -1,3 +1,10 @@
+/*
+    Date: 3/2/2021
+    Class: CSE 385 A
+    Author: John Doll
+*/
+
+
 CREATE PROCEDURE addUpdateDeleteTerms
     @TermsID            INT,
     @TermsDescription   VARCHAR(50),
