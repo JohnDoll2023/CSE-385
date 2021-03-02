@@ -119,29 +119,34 @@ WHERE InvoiceNumber = '125520-1'
     END
 */
 
+
+
+
+
+----------------------------------------------------------------------------------------------PROCEDURES
 /*
 GO
     CREATE PROCEDURE spAddGLAccount
         @AccountNo          INT,
         @AccountDescription VARCHAR(50)
     AS BEGIN
-        IF EXISTS (SELECT NULL FROM GLAccounts WHERE AccountNo = @AccountNo) BEGIN
+        IF NOT EXISTS (SELECT NULL FROM GLAccounts WHERE AccountNo = @AccountNo) BEGIN
             INSERT INTO GLAccounts (AccountNo, AccountDescription) VALUES
                 (@AccountNo, @AccountDescription)
         END
     END
 GO
-
-EXEC spAddGLAccount 99, 'SAMPLE'
 */
-/*
+EXEC spAddGLAccount 99, 'SAMPLE'
+SELECT * FROM GLAccounts
 
+/*
 GO
     CREATE PROCEDURE spAddUpdateGLAccount
         @AccountNo          INT,
         @AccountDescription VARCHAR(50)
     AS BEGIN
-        IF EXISTS (SELECT NULL FROM GLAccounts WHERE AccountNo = @AccountNo) BEGIN
+        IF NOT EXISTS (SELECT NULL FROM GLAccounts WHERE AccountNo = @AccountNo) BEGIN
             INSERT INTO GLAccounts (AccountNo, AccountDescription) VALUES
                 (@AccountNo, @AccountDescription)
         END ELSE BEGIN
@@ -151,12 +156,13 @@ GO
         END
     END
 GO
+*/
 
 EXEC spAddUpdateGLAccount 98, 'SAMPLE-1'
 
 SELECT * FROM GLAccounts
-*/
-/*
+
+
 GO
     ALTER PROCEDURE spAddUpdateDeleteGLAccount
         @AccountNo          INT,
@@ -169,7 +175,7 @@ GO
             END TRY BEGIN CATCH
                 PRINT 'CANNOT DELETE PARENT RECORD'
             END CATCH
-        END ELSE IF EXISTS (SELECT NULL FROM GLAccounts WHERE AccountNo = @AccountNo) BEGIN
+        END ELSE IF NOT EXISTS (SELECT NULL FROM GLAccounts WHERE AccountNo = @AccountNo) BEGIN
             INSERT INTO GLAccounts (AccountNo, AccountDescription) VALUES
                 (@AccountNo, @AccountDescription)
         END ELSE BEGIN
@@ -179,7 +185,7 @@ GO
         END
     END
 GO
-*/
-EXEC spAddUpdateDeleteGLAccount 98, 'Hello World', 552
+
+EXEC spAddUpdateDeleteGLAccount 552, 'Hello World', 1
 
 SELECT * FROM GLAccounts
