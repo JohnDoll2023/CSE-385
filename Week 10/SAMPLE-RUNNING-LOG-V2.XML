@@ -1,0 +1,2043 @@
+<log userName="Hoya" startDate="2006-02-03T00:00:00" endDate="2006-11-29T00:00:00">
+	<exercises>
+		<exercise id="1" name="Bike" />
+		<exercise id="2" name="Swim" />
+		<exercise id="3" name="Walk" />
+		<exercise id="4" name="Situps" />
+		<exercise id="5" name="Pushups" />
+		<exercise id="6" name="Rollerblading" />
+		<exercise id="7" name="Pilates" />
+		<exercise id="8" name="Elliptical" />
+	</exercises>
+	<shoes>
+ 		<shoe id="405" name="Vitruvian Harmony" purchaseDate="2006-02-10T00:00:00" currDistance="396.9" maxDistance="0" default="0" retired="1" />
+		<shoe id="406" name="New Balance 900" purchaseDate="2006-01-15T00:00:00" currDistance="170.4" maxDistance="200" default="0" retired="0" />
+		<shoe id="408" name="Nike Waffle Racer" purchaseDate="2003-11-09T00:00:00" currDistance="33.2" maxDistance="0" default="0" retired="0" />
+		<shoe id="410" name="Other" purchaseDate="1972-09-04T00:00:00" currDistance="269.2" maxDistance="0" default="1" retired="0" />
+		<shoe id="492" name="Nike Free 4.0" purchaseDate="2006-05-31T00:00:00" currDistance="130.8" maxDistance="400" default="0" retired="0" />
+		<shoe id="581" name="Nike Hayward (red sole)" purchaseDate="2006-07-01T00:00:00" currDistance="223.0" maxDistance="350" default="0" retired="0" />
+		<shoe id="582" name="Nike Miler" purchaseDate="2006-07-01T00:00:00" currDistance="162.8" maxDistance="350" default="0" retired="0" />
+	</shoes>
+	<workouts>
+		<workoutDay date="2006-02-03T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.60" duration="3843" shoeID="410" />
+				<run runNum="2" distance="5.00" duration="2800" shoeID="410" />
+			</runs>
+			<notes dayTitle="First entry into log!">
+				<note noteNum="1" author="Hoya">First time entering my runs in this software since long ago. Starting a push for Spring 'thon. Hard rain - felt good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-04T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.60" duration="3863" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy">
+				<note noteNum="1" author="Hoya">Ran with Maurice, Corey and Eric. Achilles a bit tight, but ok. Felt a little tired and ducked out earlier than others. Still very warm, ran in shorts and t-shirt.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-05T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.50" duration="4689" shoeID="410" />
+			</runs>
+			<notes dayTitle="Batton">
+				<note noteNum="1" author="Hoya">Not sure about distance - a guess. Felt like a batton today, got passed around a lot. Ran with Mosses, then met and ran with Neil B. (nice guy), then again with Moses, then finished up with Eric.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-06T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.70" duration="3953" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy">
+				<note noteNum="1" author="Hoya">Easy run with Corey, Jim, and Brad. Felt fine.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-07T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.50" duration="5652" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy Peasy">
+				<note noteNum="1" author="Hoya">Ran with Alan, Corey and Jim, Felt good. Achilles still a bit tight, but not any worse.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-08T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.90" duration="4500" shoeID="410" />
+			</runs>
+			<notes dayTitle="Alone in Evening">
+				<note noteNum="1" author="Hoya">Ran alone in the evening as I missed the morning run.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-09T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.00" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy Run">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-10T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="6.80" duration="2841" shoeID="410" />
+			</runs>
+			<notes dayTitle="Tempo Loops">
+				<note noteNum="1" author="Hoya">2xres loop in 10:34(6:42), 10:05(6:24).</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-11T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Lazy">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-12T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Lazy">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-13T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.30" duration="3466" shoeID="410" />
+			</runs>
+			<notes dayTitle="Post Snow Storm Easy Run">
+				<note noteNum="1" author="Hoya">Got dumped with snow yesterday, so the going was a bit slick. Gorgeous morning in the park.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-14T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5418" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy feel good">
+				<note noteNum="1" author="Hoya">Ran with Corey and Jim. Beautiful morning. Felt good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-15T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="17.00" duration="7006" shoeID="410" />
+			</runs>
+			<notes dayTitle="Tempo Run">
+				<note noteNum="1" author="Hoya">Ran hard with Corey and Jim. When the pace picked up Corey got dropped and I hung with Jim for a couple more miles, and then came home easy. Felt good to go hard - feel trashed after.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-16T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.50" duration="3626" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy and sore">
+				<note noteNum="1" author="Hoya">Very tired from yesterday's workout. Jogged very and picked it up just a little when I ran into Jim. Felt like it helped get the crap out of my legs.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-17T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="13.00" duration="5803" shoeID="410" />
+			</runs>
+			<notes dayTitle="2x2 mile repeats">
+				<note noteNum="1" author="Hoya">Did 2x2 mile with Corey and some with Jim. splits were 5:45, 5:54, 6:30, 6:15. Went out too hard with those guys.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-18T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.60" shoeID="410" />
+			</runs>
+			<notes dayTitle="Sickly">
+				<note noteNum="1" author="Hoya">Feeling under the weather, but not too bad. Ran with Eric and David.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-19T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="21.00" duration="9180" />
+			</runs>
+			<notes dayTitle="Long Run w/ Speedy CPTC'ers">
+				<note noteNum="1" author="Hoya">Great long run with 7 other CPTC'ers. Included Brad, Stuart, Russell, Neil, Terrance, Steve, and Corey. Met at the flower pot in Riverside Park (91st st) and headed north in the park. Stopped at a deli at the northern tip of the island and headed home on internal roads. Were hauling in some sections, especially in Harlem as we headed towards the park. Got dropped when we entered the park - I could nolonger hang. Overall excellent run. Took a short Ice bath after.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-20T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4705" shoeID="405" />
+			</runs>
+			<notes dayTitle="Alone - moderate effort">
+				<note noteNum="1" author="Hoya">Ran alone. Felt good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-21T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4850" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy Peasy">
+				<note noteNum="1" author="Hoya">Felt pretty tired today. Corey was late, but I ran with him towards the end after he found me. Ended up speeding up a bit with him as he was running faster.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-22T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5234" />
+			</runs>
+			<notes dayTitle="Tempo with Corey">
+				<note noteNum="1" author="Hoya">Met up with Corey (jim was a no-show) and did 2xBPN. Laps in 16:27(6:35), 15:45(6:18). It was a nice hard effort for me. WU 41:07, CD 13:54.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-23T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5691" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy Run - foot pain">
+				<note noteNum="1" author="Hoya">Ran nice and easy with Corey and Jim. Have some slight pain behind big toe. Almost feels like the base knuckle is bruised. Pain is hardly noticable when running on soft surface and still very mild on roads.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-24T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.50" duration="4520" shoeID="406" />
+			</runs>
+			<notes dayTitle="Easy with crew">
+				<note noteNum="1" author="Hoya">Easy run with Corey and Jim. Felt good overall but pain in left foot is worse today.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-25T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.00" duration="3562" shoeID="405" />
+			</runs>
+			<notes dayTitle="Moderate run in Greenwich">
+				<note noteNum="1" author="Hoya">Ran to Todd's point in Old Greenwich and did two loops at the point then back to Gina's house. Felt a bit sluggish and left foot pain was worse. Not sure if I need to take time off for it to heal. Pushed the pace in several sections.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-26T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Resting foot">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-27T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Resting foot">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-02-28T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Resting foot">
+				<note noteNum="1" author="Hoya">Easy stationary bike ride. Foot on the mend.</note>
+			</notes>
+			<activities>
+				<activity id="1" exerciseID="1" Sets_or_Distance="10.00" Reps_or_Duration="1800" />
+			</activities>
+		</workoutDay>
+		<workoutDay date="2006-03-01T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Resting foot">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-02T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="14.00" duration="6680" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy with the morning crew">
+				<note noteNum="1" author="Hoya">Ran easy with Jim, Corey was sick. Foot felt decent. I'm now convinced it's not a stress fracture, just an agrevated tendon. I'm going to try and run through it.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-03T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4401" shoeID="406" />
+			</runs>
+			<notes dayTitle="Fast with Jim">
+				<note noteNum="1" author="Hoya">Felt good. The left foot big toe was not bothering me. Ran more of a progression run with Jim, Corey still sick. At the fastest point were hitting 6:40 pace. Roads very icey and bpn hard to tun on due to icey ruts.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-04T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.00" duration="3914" />
+			</runs>
+			<notes dayTitle="Easy and Cold">
+				<note noteNum="1" author="Hoya">Very cold. Ran easy and alone.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-05T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="16.00" duration="6997" shoeID="405" />
+			</runs>
+			<notes dayTitle="Long Run - sluggish">
+				<note noteNum="1" author="Hoya">Felt a bit sluggish. Hoped to go longer but didn't have it today.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-06T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Overslept">
+				<note noteNum="1" author="Hoya">Overslept and never made it out. Feeling pretty worn out and foot is still bothering me.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-07T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.50" duration="4731" shoeID="405" />
+			</runs>
+			<notes dayTitle="Foot makes me cranky">
+				<note noteNum="1" author="Hoya">Still feeling a bit worn out. Foot is still bothering me as well. Need to keep icing it. Ran with Corey, he was running 7:15 pace, probably faster than I wanted to go today. I'm a bit cranky this morning.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-08T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Resting Foot">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-09T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.50" duration="4207" shoeID="406" />
+			</runs>
+			<notes dayTitle="Mile Reapeats on BPN">
+				<note noteNum="1" author="Hoya">Did 2xBPN including 3x1mile with 0.25 mile recovery jogs. Mile splits were 6:24, 6:06, 6:22. IBath after run. Foot hurting.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-10T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="5079" shoeID="405" />
+			</runs>
+			<notes dayTitle="Super easy - alone">
+				<note noteNum="1" author="Hoya">Ran very easy alone. Decided I need to take my easy days easier and be more rested to have high quiality hard days. Foot sore, but ok to run on. Saw Joe T on the run. BPN in 21:31 and 21:32.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-11T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5623" />
+			</runs>
+			<notes dayTitle="Easy Run with Sean from 'boken">
+				<note noteNum="1" author="Hoya">Ran with Sean. Felt good. Weather was amazing - first warm day of season and tons of folks out in the park. Foot about the same.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-12T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="19.00" duration="8855" shoeID="405" />
+			</runs>
+			<notes dayTitle="Long Run Alone">
+				<note noteNum="1" author="Hoya">Generally easy pace long run. No one else was going long that early do ended up running with a lot of dofferent groups. Started with D. Maurice, then ran with Brad, Jim, and Russ, finally adding Neil and Steve. Felt pretty good and went very slowly as in some parts. Was not really a pregressive run, but sections were faster depending on who I ran with and what they were doing. Foot slightly better. Two aleve make is go away completely - just don't want to keep popping those pills.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-13T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.80" duration="5184" />
+			</runs>
+			<notes dayTitle="Easy Run in Thick Fog">
+				<note noteNum="1" author="Hoya">Ran easy with Jim, Brad, and Russell. Felt good. Very foggy in the park this morning.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-14T00:00:00">
+			<health healthNum="1" weight="142.00" sleep="8.00" />
+			<runs>
+				<run runNum="1" distance="13.00" duration="5561" shoeID="406" />
+			</runs>
+			<notes dayTitle="Tempo Effort with Corey">
+				<note noteNum="1" author="Hoya">Ran with Jim and Corey. Included 3xbpn 17:32 (7:01), 16:36 (6:38), 16:29 (6:36). Felt pretty good. Tired after. Foot a little better. 22min wrm/15min cldn</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-15T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5820" />
+			</runs>
+			<notes dayTitle="Easy Peasy">
+				<note noteNum="1" author="Hoya">Easy paced run with Jim, Brad, Corey and Tom. Paced picked up a touch after we picked up Tom. New WT Pumas are outstanding. Still sore and probably went a little longer than I should have. Soreness in quads and achilles. Foot still feeling a little better.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-16T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="13.50" duration="6298" />
+			</runs>
+			<notes dayTitle="Easy w/ Strides">
+				<note noteNum="1" author="Hoya">an with Jim and Alan. Alan was doing lamppost strides so we joined in. Continued doing short strider intervals after Jim went home. Felt good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-17T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3509" />
+			</runs>
+			<notes dayTitle="Easy Peasy">
+				<note noteNum="1" author="Hoya">Took it very easy this morning. Ran very slow and alone. Left achilles a little tight from the new Pumas, but not bad. Overall, legs a bit sore, but today will make them feel better.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-18T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="13.10" duration="5100" shoeID="408" />
+			</runs>
+			<notes dayTitle="RACE - B'klyn 1/2 Marathon">
+				<note noteNum="1" author="Hoya">Well, I wanted an idea of where my fitness was, and I got it - not good. I have some work ahead of me, but that's ok. At ;least I like the training part. Splits were 6:18, 6:33, 6:34, 6:07, 6:08, 6:19, 6:26, 6:32, 6:33, 6:47, 7:00, 6:25, 6:34, 0:40.
+Goal was to run 6:20 pace. Was on pace at half way, then things started to come apart. Forgot how long this race is and that you need to a better job of "settleing" in over the first 5 miles. Will have a better feel for the distance next time.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-19T00:00:00">
+			<health healthNum="1" weight="142.00" sleep="8.00" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5893" />
+			</runs>
+			<notes dayTitle="Race Recovery Jog">
+				<note noteNum="1" author="Hoya">Felt a little tired from race, but not too bad.  Ran alone, ran very easy.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-20T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="11.50" duration="5513" />
+			</runs>
+			<notes dayTitle="Easy Run">
+				<note noteNum="1" author="Hoya">Ran easy with Jim and Brad. Did 8x striders on the lower loop after. Felt good. Legs recovered well from race.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-21T00:00:00">
+			<health healthNum="1" weight="143.00" sleep="7.80" />
+			<runs>
+				<run runNum="1" distance="12.80" duration="5708" shoeID="405" />
+			</runs>
+			<notes dayTitle="Moderate Run">
+				<note noteNum="1" author="Hoya">Ran at moderate pace with Jim and Corey. 2xBPN @ 7:00 pace. Felt a little tired, but not too bad.
+
+Today started doing and logging p/ups and s/ups.  Also, today transfered data from athleticore.com to logarun.com.  Prefered the features on the logarun site.</note>
+			</notes>
+			<activities>
+				<activity id="1" exerciseID="4" Sets_or_Distance="1.00" Reps_or_Duration="20" />
+				<activity id="2" exerciseID="5" Sets_or_Distance="2.00" Reps_or_Duration="40" />
+			</activities>
+		</workoutDay>
+		<workoutDay date="2006-03-22T00:00:00">
+			<health healthNum="1" weight="142.50" pulse="58" sleep="7.30" />
+			<runs>
+				<run runNum="1" distance="12.90" duration="5671">
+					<splits>
+						<split id="1" distance="2.90" duration="1408" distanceType="1" terrainType="1" splitType="3" />
+						<split id="2" distance="1.42" duration="642" distanceType="1" terrainType="1" splitType="2" />
+						<split id="3" distance="1.42" duration="591" distanceType="1" terrainType="1" splitType="2" />
+						<split id="4" distance="1.42" duration="586" distanceType="1" terrainType="1" splitType="2" />
+						<split id="5" distance="1.42" duration="565" distanceType="1" terrainType="1" splitType="2" />
+						<split id="6" distance="1.42" duration="531" distanceType="1" terrainType="1" splitType="2" />
+						<split id="7" distance="2.90" duration="1348" distanceType="1" terrainType="1" splitType="3" />
+					</splits>
+				</run>
+			</runs>
+			<notes dayTitle="Hilly Progression Run">
+				<note noteNum="1" author="Hoya">Out the door at 5:10am.  Ran 2.9/2.9 wrm/cld.  To CP, up east side drive to 102nd then 5x northern loop.  Nice progression per loop ending in a 6:15 pace last loop.  Loop was run CW to include both big hills in harlem portion of park.  See intervals for splits.
+
+Left foot a little sore.  Wearing Vitruvian's yesterday aggrevated them.  Those shoes not so good for that injury.  Otherwise felt good.
+
+Started a screwy "apple diet" I read about on letsrun.  Never a good idea to get ideas from that site.  =)  Directly before every meal eat 1 or 2 apples.</note>
+			</notes>
+			<activities>
+				<activity id="1" exerciseID="5" Sets_or_Distance="2.00" Reps_or_Duration="40" />
+				<activity id="2" exerciseID="5" Sets_or_Distance="1.00" Reps_or_Duration="30" />
+				<activity id="3" exerciseID="4" Sets_or_Distance="1.00" Reps_or_Duration="30" />
+			</activities>
+		</workoutDay>
+		<workoutDay date="2006-03-23T00:00:00">
+			<health healthNum="1" weight="141.00" pulse="49" sleep="9.00" />
+			<runs>
+				<run runNum="1" distance="9.60" duration="4543" />
+			</runs>
+			<notes dayTitle="Easy w/ Striders">
+				<note noteNum="1" author="Hoya">Out the door at 6:30 and met up with Corey on the BPN.  Jim had to run earlier this morning.  Started out really easy, then Corey had his motor on so we ended up going a bit faster.  I did however manage to get him to slow down a bit.  After all, this is supposed to be an easy day.  Towards the end of the run did 8 striders on the trail.  Everything felt good and the long night of sleep was awesome  =)</note>
+			</notes>
+			<activities>
+				<activity id="1" exerciseID="5" Sets_or_Distance="2.00" Reps_or_Duration="40" />
+				<activity id="2" exerciseID="4" Sets_or_Distance="1.00" Reps_or_Duration="30" />
+				<activity id="3" exerciseID="4" Sets_or_Distance="1.00" Reps_or_Duration="20" />
+			</activities>
+		</workoutDay>
+		<workoutDay date="2006-03-24T00:00:00">
+			<health healthNum="1" sleep="7.80" />
+			<runs>
+				<run runNum="1" distance="11.10" duration="5117" />
+			</runs>
+			<notes dayTitle="Easy Run Alone">
+				<note noteNum="1" author="Hoya">Out the door at 6:00am.  To CP, up east side to BPN and 3xBPN.  Home same way.  Corey was a no-show.  Overlapped with Jim for about 40 meters as he started later.  Felt good.  Legs don't have any spring yet.  More speed work to come.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-25T00:00:00">
+			<health healthNum="1" sleep="6.50" />
+			<runs>
+				<run runNum="1" distance="18.00" duration="7800" />
+			</runs>
+			<notes dayTitle="Fairly hard long run">
+				<note noteNum="1" author="Hoya">Good effort and felt good.  Pain behind left knee.  Ran with many different folks.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-26T00:00:00">
+			<health healthNum="1" sleep="8.80" />
+			<runs>
+				<run runNum="1" distance="1.50" duration="720" />
+			</runs>
+			<notes dayTitle="Behind Knee Pain">
+				<note noteNum="1" author="Hoya">Cut jog short.  Pain I had felt last couple of days behind left knee was waorse and I decided it give it rest.  </note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-27T00:00:00">
+			<health healthNum="1" sleep="6.00" />
+			<notes dayTitle="Resting Knee">
+				<note noteNum="1" author="Hoya">Still feeling soreness behind left knee.  Mostly precautionary, should be good to go tomorrow.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-28T00:00:00">
+			<health healthNum="1" weight="142.00" sleep="5.50" />
+			<runs>
+				<run runNum="1" distance="11.00" duration="5200" />
+			</runs>
+			<notes dayTitle="Back at it">
+				<note noteNum="1" author="Hoya">Felt a bit sluggish, have not gotten enough sleep the last two days.  Need to get to bed earlier tonight.  Ran on BPN, both Corey and Jim took days off.  I pushed the pace for about 2 miles, but otherwise the pace was easy.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-29T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Travel to Florida - No Run">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-30T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.50" duration="4654" />
+			</runs>
+			<notes dayTitle="Tempo Run in FLA">
+				<note noteNum="1" author="Hoya">Out the door at 6:50.  On asphault the whole way.  Did 4x4:30 minute pick-ups.  Left calf tight from day off.  Left knee and foot ok.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-03-31T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="11.00" duration="4801" />
+			</runs>
+			<notes dayTitle="W/ Beto (on bike)">
+				<note noteNum="1" author="Hoya">Beto rode his bike as I ran.  He took me on a nice path in Tampa.  Did 3x4:45 pickups.  Ran them a lot harder than the ones I did the day before.  Felt pretty good.  Calf still giving me problems.  Calf and back of knee issues on left leg are related.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-01T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Resting Calf/Knee">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-02T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4812" />
+			</runs>
+			<notes dayTitle="Back in CP">
+				<note noteNum="1" author="Hoya">Ran alone in CP.  Still having calf/knee problems.  Am going to take some time off.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-03T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Resting calf/knee">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-04T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Resting calf/knee">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-05T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Chicken">
+				<note noteNum="1" author="Hoya">Got up early enough but pussied out when I saw the cold rain (35F) outside.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-06T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Unmotivated">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-07T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Unmotivated">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-08T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Unmotivated">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-09T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Unmotivated">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-10T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Unmotivated">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-11T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.50" duration="3794" />
+			</runs>
+			<notes dayTitle="Run W/ David Maurice">
+				<note noteNum="1" author="Hoya">Decent paced run with D. Maurice.  Felt well rested but sluggish from so many days off.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-12T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Unmotivated">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-13T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="6.00" duration="2881" shoeID="405" />
+			</runs>
+			<notes dayTitle="Felt like crap">
+				<note noteNum="1" author="Hoya">Time off has made me slow and sucky.  Damn, hate it when life and my own lack of motivation gets in the way.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-14T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4287" />
+			</runs>
+			<notes dayTitle="Run with D.Maurice">
+				<note noteNum="1" author="Hoya">Felt decent.  Pushed the pace a bit harder than D wanted, I think.  Getting on the road to being consistent again.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-15T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.20" duration="4219" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy Day Alone">
+				<note noteNum="1" author="Hoya">Ran easy on BPN.  First day of heat, felt nice.  Saw the big CPTC group meeting at 9:100 for run, but I had to get out earlier.
+
+Lifted.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-16T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="13.50" duration="5843" />
+			</runs>
+			<notes dayTitle="Nice progressions run">
+				<note noteNum="1" author="Hoya">Did 3x BPN.  Started easy then picked it up gradually.  Loops were in 19:28, 18:07, 16:40.  Felt nice and smooth towards the end.  Feeling better.
+
+Lifted back, bis, calves, and abs.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-17T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="6.40" duration="3057" />
+			</runs>
+			<notes dayTitle="Nice and Easy">
+				<note noteNum="1" author="Hoya">Feeling good.  Weather is awesome.
+
+Lifted chest, tris, shoulders, and abs.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-18T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.80" duration="4909" shoeID="405" />
+			</runs>
+			<notes dayTitle="Faster and in the dark">
+				<note noteNum="1" author="Hoya">Really enjoyed following the Boston runners (Corey and Brad) on the web yesterday while emailing back and forth with all the CPTC guys.
+
+This morning, out the door at 4:30.  Ran 1xBPN, then 3xrez.  Loops in 19:25(7:46), 11:15(7:08), 10:40(6:46), 12:01(7:37).
+
+BPN was run fairly easy with headlamp.  First rez did lamp post pick-ups and half way through started running hard with no breaks.  Second rez hard, last rez easy.  Quads sore, but otherwise felt fine.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-19T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="4.00" duration="1999" />
+			</runs>
+			<notes dayTitle="Legs Trashed - Easy Does It">
+				<note noteNum="1" author="Hoya">My legs were trashed this morning and I was feeling completely spent.  I played it smart and just shuffled along at one time the lower loop.  Left the house at 5:30.  Dark this morning, but temp was perfect.  Trees are just budding their leaves and look beautiful.  The leaves have that light green color.  Should be feeling good for a hard workout tomorrow.
+
+Lifted chest, shoulders, tris, and abs after run. </note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-20T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.00" duration="3787" shoeID="406" />
+				<run runNum="2" distance="2.50" duration="972" shoeID="406" />
+				<run runNum="3" distance="2.50" duration="953" shoeID="406" />
+			</runs>
+			<notes dayTitle="Hard LT Effort">
+				<note noteNum="1" author="Hoya">Felt pretty good, not great, but hung with it.  Did 2x2.5 mile BPN loop in 16:12, 15:53.  5 min. recovery jog in between the 2 repeats.
+
+Lifted back, bis, abs.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-21T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3365" />
+			</runs>
+			<notes dayTitle="Easy - mini taper">
+				<note noteNum="1" author="Hoya">Ran pretty easy.  Didn't feel great - I think I've caught the cold Lucas has.  Sore throat and starting to feel lousy.  Beautiful day outside as I ran at 8am.  The trees in the park are so nice right now.
+
+Lifted chest, tris, shoulders, and abs.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-22T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="5.00" duration="2344" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy - more taper">
+				<note noteNum="1" author="Hoya">Had nice spring in my step today.  Ran around the ramble of CP in light cool rain and finished with a lower loop.  Feeling pretty good for race tomorrow.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-23T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3120" shoeID="408" />
+			</runs>
+			<notes dayTitle="Leathermans' Loop - Mud Fest">
+				<note noteNum="1" author="Hoya">Really fun race!  Finished 9th in 45:02 and really enjpyed the day.  Weather was aweful - hard rain and cool.  Course was a mud fest, totally sloppy and wet.  River crossings were the highest I've seen them.  Finished strong and passed several runners of over the last two miles.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-24T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Sick">
+				<note noteNum="1" author="Hoya">Bad cold.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-25T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Sick">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-26T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Still Sick">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-27T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="6.50" duration="3030" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy with pick-ups">
+				<note noteNum="1" author="Hoya">Ran pretty easy.  Feeling better, but very slugish with re: to running.  Started to feel more fluid towards the end.  Left hip tight and left ankle sore from race, ut not bad.  Beautiful morning - trees in blume and birds singing.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-28T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="4.50" duration="2074" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy run">
+				<note noteNum="1" author="Hoya">Feeling so-so going into the arce.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-29T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="13.10" duration="5133" shoeID="408" />
+			</runs>
+			<notes dayTitle="Queens 1/2 Marathon">
+				<note noteNum="1" author="Hoya">Ran poorly, but what can I expect - training has been sporatic.  At least I stayed pretty constant.  Slowest mile towards end of race was due to stop to tie both shoes that had come untied.  6:32, 6:31, 6:24, 6:18, 6:30, 6:33, 6:21, 6:33, 6:41, 6:59, 6:29, 6:31, 6:25, 0:43.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-04-30T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="5.00" duration="2700" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy run - painful">
+				<note noteNum="1" author="Hoya">Left hip really, really sore.  Almost too sore to run.  Sore from my fall on Thursday and race made it worse.  Took it very slow.  Ran across the Queensboro bridge and explored a little in Queens.  Want to explore more there.  There may some good running there.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-01T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Off - hip very sore">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-02T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Off - hip still sore">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-03T00:00:00">
+			<health healthNum="1" weight="142.00" />
+			<runs>
+				<run runNum="1" distance="3.90" duration="1944" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy run - Hip still very sore">
+				<note noteNum="1" author="Hoya">Hip is still bothering me a lot, but it's getting better.  Starting a long road look ahead to NYC marathon in Nov. and running a sub-2:50.  Got my goal, now it's time to go get it everyday!</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-04T00:00:00">
+			<health healthNum="1" weight="142.00" />
+			<runs>
+				<run runNum="1" distance="6.00" duration="3120" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy run pushing Lucas">
+				<note noteNum="1" author="Hoya">Ran fairly easy pushing Lucas.  Even though he was sick, he really enjoyed it.  He would point out all the things that he recognived or thought were neat.
+
+I felt pretty good actually, which suprised me b/c I've mostly been running crappy of late.  Left hip still a littlew sore, but starting to come around.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-05T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.00" duration="3908" shoeID="405" />
+			</runs>
+			<notes dayTitle="Beautiful run pushing Lucas">
+				<note noteNum="1" author="Hoya">Beautiful day in the park - even was hot at the end.  Lucas enjoyed the entire thing.   I thought he'd get fussy towards the end, but he was solid the entire time.  Trees are all so green already - crazy how fast they do from flower buds to full blown green.
+
+Left hip still a little sore as I started out, but ok thereafter.
+
+Hoya</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-06T00:00:00">
+			<health healthNum="1" weight="142.00" sleep="4.00" />
+			<runs>
+				<run runNum="1" distance="5.00" duration="2405" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy run pushing Lucas - felt crappy.">
+				<note noteNum="1" author="Hoya">Easy run pushing Lucas.  Warm day.  Felt ok, didn't sleep more that about 4 hours last night.  </note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-07T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.50" duration="5742" shoeID="405" />
+			</runs>
+			<notes dayTitle="Longerish run">
+				<note noteNum="1" author="Hoya">Met David Maurice at 7:15 and run with him until we met up with Moses and Jim who were both pushing joggers.
+
+David pushed the pace a bit when we were running alone.  Felt fairly good towards the end.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-08T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="6.10" duration="3125" shoeID="410" />
+			</runs>
+			<notes dayTitle="Slow Pushing Lucas.">
+				<note noteNum="1" author="Hoya">Pushed Lucas on the bridal path - makes for slow going.  Nice and easy felt good on the legs though.  Legs were a little sore from the long;ish run, but only slightly.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-09T00:00:00">
+			<health healthNum="1" weight="142.50" />
+			<runs>
+				<run runNum="1" distance="10.50" duration="4555" shoeID="405" />
+			</runs>
+			<notes dayTitle="Fartleks">
+				<note noteNum="1" author="Hoya">Out the door at 4:45 am.  Ran on park road until some light in the sky then switched to the bridle path.  Threw in surges early and often.  Felt good to go at will and not be tied to anything - including where I was running.  Switches courses whenever I felt like it.  I felt pretty loose, but need to try and make more on an effort to stretch b/c hammies are tight.  Birds were singing nicely today.  Also thought about taking more time to do pre-dawn time exposure photos in the park.  Some really interesting/beautiful scenes.
+
+About 3-4 weeks out from baby coming.  Jeanette really tired but being a trooper.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-10T00:00:00">
+			<health healthNum="1" weight="143.00" />
+			<runs>
+				<run runNum="1" distance="8.30" duration="3954" />
+			</runs>
+			<notes dayTitle="Easy run with Maurice">
+				<note noteNum="1" author="Hoya">Got to run later this morning as Jeanette didn't have to go in to work today.  Felt pretty good.  Happened to run into Maurice while out and joined him.  He pushed the pace a little on me, but not too bad.  A bit humid out, but cool weather.  Got some good stretching in after the run.  Been doing that the last couple of days and hoping to keep that up.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-11T00:00:00">
+			<health healthNum="1" weight="140.50" />
+			<runs>
+				<run runNum="1" distance="10.30" duration="4480" shoeID="405" />
+			</runs>
+			<notes dayTitle="&quot;Icebreaker&quot; Fartleks">
+				<note noteNum="1" author="Hoya">Felt decent today.  Been trying to streach and stay loose.  Ran to bridle path as warm-up and then 2xBPN at 3min hard/2min easy.  BPN loops in 16:58 (6:47), 16:30(6:36).  Patience ... Patience, and consistency.  That's what this running thing is all about.  Keep up the work and look far down the road.  Don't expect quick results...patience...</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-12T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.00" duration="3976" shoeID="405" />
+			</runs>
+			<notes dayTitle="Rainy Run w/ Corey &amp; Jim">
+				<note noteNum="1" author="Hoya">Pleasant rain in CP while running with Corey and Jim.  Trees so leafy and green right now.  As much as I complain about the weather sometimes, the seasons really are nice.  You just have to spend the time to appreciate their differences.
+
+Felt good during the run.  However, remember not to wear the Vitruvians on BPN again is it is rainy.  The wide ankle collar on the shoes atract pebbles.  Caused irritation and some bleeding above my heel.  Probabl;y also due to the "sockletes" that I wore.
+
+It was really nice to run with these guys again.  Conversation is so easy and the miles role by effortlessly
+
+Patience...patience...</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-13T00:00:00">
+			<health healthNum="1" weight="143.00" />
+			<runs>
+				<run runNum="1" distance="6.80" duration="3236" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy with D.Maurice">
+				<note noteNum="1" author="Hoya">Easy run with David.  Nice out.  Felt pretty good, no aches or pains.  Took it pretty easy and short so I'd have a little sometin' sometin' for tomorrow's long run.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-14T00:00:00">
+			<health healthNum="1" weight="141.50" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5584" shoeID="405" />
+			</runs>
+			<notes dayTitle="Queenboro to Williamsburg Bridge Run">
+				<note noteNum="1" author="Hoya">Nice exploratory run in Blooklyn and Queens.  Ran to the Queensboro bridge, south along the water in Greenpoint, across the Polaski bridge into Brooklyn and then through Williamsburg until I got to the Willamsburg bridge and north on 1st Ave.
+
+I had some pain behind my left knee for the first few miles, but then the pain faded.
+
+The run ended up being shorter than I had anticipated.  Had hoped to run 14 to 15 miles.  It's ok, slow buildup - no need to overdo it.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-15T00:00:00">
+			<health healthNum="1" weight="141.50" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3490" />
+			</runs>
+			<notes dayTitle="Pushing Lucas - just beat the rain">
+				<note noteNum="1" author="Hoya">Easy run pushing Lucas.  I was sure we'd get rained on so I put up the rain cover on the jogger.  Somehow, we got home just before it started and stayed dry.  Everything felt good, no issues.
+
+Wrist has healed enough that I can do some push-ups again.  Can't go nuts, but it's a start.  Also, seem to be starting to loose a little weight.
+
+It's all about the consistency and patience.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-16T00:00:00">
+			<health healthNum="1" weight="141.50" />
+			<runs>
+				<run runNum="1" distance="11.00" duration="4729" shoeID="406" />
+			</runs>
+			<notes dayTitle="Tempo Effort in the rain w/Corey &amp; Jim">
+				<note noteNum="1" author="Hoya">Ran with Corey and Big Jim in the rain.  Icluded 3.5 miles at 6:40'ish pace.  One of the BPN loops was in 16:49.  Behind left knee had no pain - sweet.  No other issues.  Girl called Stefani joined us for a bit.  She's into doing many Ultras and adventure races and used to be a professional cyclist, now is a freelance sports writer.  Very interesting.
+
+Patience, patience...</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-17T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Rest Day">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-18T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4704" />
+			</runs>
+			<notes dayTitle="Easy run w/ Stefani">
+				<note noteNum="1" author="Hoya">Easy run with Stafani.  Loved hearing about her various ultra/adventure race exploits.  Legs felt pretty good, no issues.  Beautiful day out, pretty warm.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-19T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="11.10" duration="5280" />
+			</runs>
+			<notes dayTitle="Easy alone in rain">
+				<note noteNum="1" author="Hoya">Feeling a bit down today, not sure why.  Maybe it's all the rain we've been having.  Ran well and felt pretty good.  I couldn't find my watch so pace is completely a guess, but distance is accurate.  Decided yesterday not to do the race tomorrow.  I want to give my fitness more time to improve before I test it again.
+
+Ate like a complete pig yesterday - need to cut that out.  Seemed to eat every carb I laid my eyes on and not much else.  Retaining a lot of water this morning.  Plus, enhaling almost the entire pint of B&amp;J Chunky Monkey didn't help either.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-20T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3350" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy jog pushing Lucas">
+				<note noteNum="1" author="Hoya">Went to CP before the Healthy Kidney 10K started and did some easy running.  Ran with Coreay and Brad some.  Lucas loved watching the race.  Suprised me.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-21T00:00:00">
+			<health healthNum="1" weight="142.50" />
+			<runs>
+				<run runNum="1" distance="16.00" duration="7031" shoeID="410" />
+			</runs>
+			<notes dayTitle="Long run w/ Stefany">
+				<note noteNum="1" author="Hoya">Ran long with Stefani for first half.  Pushed the pace more after she headed home.  Felt good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-22T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3430" />
+			</runs>
+			<notes dayTitle="Easy run pushing Lucas">
+				<note noteNum="1" author="Hoya">Ran real easy.  Legs a little sore from yesterday, but not too bad.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-23T00:00:00">
+			<health healthNum="1" weight="144.00" />
+			<runs>
+				<run runNum="1" distance="12.50" duration="5334" shoeID="406" />
+			</runs>
+			<notes dayTitle="Progression Run">
+				<note noteNum="1" author="Hoya">Ran a nice progressions run with Corey and Jim.  Stefani and Patrick joined us for a spell.  Roughly 3 bridle loops were at relatively harder pace.  Ran first two in 34:51(6:58) and the last one in 15:53 (6:21).  Corey fell off the pace over the last mile but I managed to stay with Jim.  I think Corey needs a little more of a break from the racing after Boston to get his fire and legs back completely.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-24T00:00:00">
+			<health healthNum="1" weight="142.00" sleep="7.80" />
+			<runs>
+				<run runNum="1" distance="8.80" duration="4332" />
+			</runs>
+			<notes dayTitle="Easy Peasy w/ Jim and Corey">
+				<note noteNum="1" author="Hoya">Ran really easy with Corey and Jim.  Gorgeous day out.  This spring has been tremendous.  Felt good.  Lower left shin/ankle was ok, but still sore.  Nothing to be alarmed about.  Started logging my runs on the Nike log yesterday too.  I guess I may end up ditching this log.  The nike one is better, but I have a fondness for this one now.  I suppose I could double log - would minimize the chances on me losing data.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-25T00:00:00">
+			<health healthNum="1" weight="140.00" sleep="7.50" />
+			<runs>
+				<run runNum="1" distance="7.20" duration="3528" />
+				<run runNum="2" distance="8.10" duration="3342" shoeID="405" />
+			</runs>
+			<notes dayTitle="Double Easy/CPTC">
+				<note noteNum="1" author="Hoya">AM: Out the door at 6:30, ran easy and threw in 6x20sec striders with 1-1:20 min easy.  Felt good.  Weather amazing - again.  56F and sunny.  ons of people runnig in the park this morning.
+
+PM: Went to CPTC workout.  Workout included 1 mile, 0.8 mile, 1 mile.  Recoveries varied but generally were short.  Splits were 5:51, 4:50, 6:13.  Faded hard, and just plain went out too hard.  Probably should have run with the C group, but instead ran with the C group.  Next time I'll join C.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-26T00:00:00">
+			<health healthNum="1" weight="141.50" sleep="8.00" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4835" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy w/Jim, Gordon, Corey">
+				<note noteNum="1" author="Hoya">Nice and easy.  Felt much better than I anticipated after the double yesterday.  Legs felt relatively springy.  Weather was awesome.  Gordon is in NYC this week so it was nice running with him.  He's a pediatrician in New Haven area now.  Corey met us for just part of the run.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-27T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="6.10" duration="3085" />
+			</runs>
+			<notes dayTitle="Easy alone">
+				<note noteNum="1" author="Hoya">Nice and easy.  Felt fairly tired.  Thought about going longer but then wisely decided to save it for tomorrow's long run.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-28T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="16.30" duration="7126" shoeID="405" />
+			</runs>
+			<notes dayTitle="Hard effort long run.">
+				<note noteNum="1" author="Hoya">Ran long run today.  Wanted to run part of the run at hard effort and was pretty happy with the efoort.  Splits for 5x2.5 BPN were 18:55(7:34), 18:55(7:34), 18:31(7:24), 17:15(7:08), 16:45(6:42).
+
+Felt pretty good.  The mileage making me tired, but not too bad.  Will go easy tomorrow and push hard again on Tuesday with the crew.  It's getting hotter - 67F and humid this morning.  Out the door at 6:15am.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-29T00:00:00">
+			<health healthNum="1" weight="142.50" pulse="48" sleep="8.00" />
+			<runs>
+				<run runNum="1" distance="8.20" duration="4144" />
+			</runs>
+			<notes dayTitle="Easy with Striders">
+				<note noteNum="1" author="Hoya">Ran alone.  Out the door at 6:30am.  Hot and humid out.  Did 8x20 sec. striders.  Felt pretty good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-30T00:00:00">
+			<health healthNum="1" weight="141.00" sleep="7.30" />
+			<runs>
+				<run runNum="1" distance="11.10" duration="4880" shoeID="406" />
+			</runs>
+			<notes dayTitle="Medium Long Run">
+				<note noteNum="1" author="Hoya">Ran medium long alone today.  Would have gone a bit longer but needed to get back in time to make appointment to take car in for repairs.  Ran 3xBPN.  First two were relatively hard and the last one was easy running as I ran into Jim and decided to run with him.  Loops were 17:57(7:10), 17:30(7:00), 19:19(7:43).  Ran home fairly hard too.  Felt good, no issues.  Getting pretty hot out, ran with no t-shirt.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-05-31T00:00:00">
+			<health healthNum="1" sleep="7.80" />
+			<runs>
+				<run runNum="1" distance="9.50" duration="4033" shoeID="405" />
+			</runs>
+			<notes dayTitle="Progression Run w/ J&amp;C">
+				<note noteNum="1" author="Hoya">Planned to go easy, but ran into Jim and Corey who were doing a medium long run at a good clip.  I tagged on for some.  Was running with them at 6:50-6:30 pace.  The one measured BPN was 16:27 (6:34).  Felt good but defiantely need to take an easy day tomorrow after two hard days in a row.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-01T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Day Off - Sebastian Born Yesterday!!!">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-02T00:00:00">
+			<health healthNum="1" weight="142.00" />
+			<runs>
+				<run runNum="1" distance="7.60" duration="3631" shoeID="492" />
+			</runs>
+			<notes dayTitle="Easy run pushing Lucas">
+				<note noteNum="1" author="Hoya">Felt fine.  Insoles started sliding forward in Free 4.0, so had to pull them out mid run.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-03T00:00:00">
+			<health healthNum="1" weight="140.00" />
+			<runs>
+				<run runNum="1" distance="7.60" duration="3252" />
+			</runs>
+			<notes dayTitle="Hardish effort pushing Lucas">
+				<note noteNum="1" author="Hoya">Ran a bit harder then easy run type.  Pushed Lucas and did some 1.5 minutes hard, 3 minutes easy.  Felt good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-04T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Zero - Adapting to Newborn Sebastian">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-05T00:00:00">
+			<health healthNum="1" weight="140.50" />
+			<runs>
+				<run runNum="1" distance="10.60" duration="4800" />
+			</runs>
+			<notes dayTitle="Easy with Jim">
+				<note noteNum="1" author="Hoya">Felt good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-06T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.50" duration="3276" shoeID="405" />
+			</runs>
+			<notes dayTitle="Hardish pushing Lucas">
+				<note noteNum="1" author="Hoya">Felt good.  Wife is driving me insane with this instistance on breastfeeding through the infection pain she has.  So freakin' hormonal!</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-07T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="13.80" duration="5690" shoeID="492" />
+			</runs>
+			<notes dayTitle="Nice long Progression run">
+				<note noteNum="1" author="Hoya">Ran alone in the afternoon after missing my morning run due to a tough night with Sebastian.  Did 4xBPN in 18:03(7:13), 17:15(6:54), 16:54(6:45), 16:09(6:27).  Felt good, ran in fairly hard rain and strong winds the entire way.  Lower legs and feet will probably be sore from Nike Free 4's tomorrow.  But I liked them - only my second run on them.  Very nice on the trails.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-08T00:00:00">
+			<health healthNum="1" weight="140.00" />
+			<runs>
+				<run runNum="1" distance="9.50" duration="4586" />
+			</runs>
+			<notes dayTitle="Easy Run - Ran into Gerry Coughlin">
+				<note noteNum="1" author="Hoya">Easy run - pretty sore and beat from yesterday's run.  Ran with Jim for a while, than ran into to Gerry Coughlin, who I have not seen in years, and ran with him for a bit.  Kid is out of shape!</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-09T00:00:00">
+			<health healthNum="1" weight="140.00" />
+			<runs>
+				<run runNum="1" distance="9.50" duration="4545" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy, alone, tired, with striders">
+				<note noteNum="1" author="Hoya">Feeling a bit beat down today, need to go really easy tomorrow.  Today was easy, but I never got into a nice groove, always a bit tired.  Did one baby feeding in the night and that is starting to wear me out.  Hopefully a shorter easy day tomorrow will put me right again.  Was supposed to meet Jim out there but never saw him.
+
+Did 7xstriders.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-10T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.50" duration="4606" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy pushing Lucas with Jim, David, Core">
+				<note noteNum="1" author="Hoya">Both Jim and David were pushing strollers too - quite the scene.  We ran easy, felt fine.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-11T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="17.80" duration="7706" shoeID="410" />
+			</runs>
+			<notes dayTitle="Hard Effort long run">
+				<note noteNum="1" author="Hoya">Started out easy but quickly brought the pace down and was hammering pretty good at the end.  L:ast 6 miles were run at about 6:40-6:50 pace.  Pretty tired after.  Will take it very easy tomorrow to recover.  No inhuries or bothers.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-12T00:00:00">
+			<health healthNum="1" weight="141.50" />
+			<runs>
+				<run runNum="1" distance="3.60" duration="1830" />
+			</runs>
+			<notes dayTitle="Super Easy along East River">
+				<note noteNum="1" author="Hoya">Ran super easy up to Carl Schutz park.  Legs were beat and sore, good to flush them out.  Will be ready to roll tomorrow.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-13T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="13.00" duration="5506" shoeID="406" />
+			</runs>
+			<notes dayTitle="Long progression run">
+				<note noteNum="1" author="Hoya">Nice hard effort.  Ran with Corey and Jim.  Pushed very hard over last 3 to 4 miles.  No isseus, everything feels good.  Beautiful day outside.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-14T00:00:00">
+			<health healthNum="1" weight="141.00" />
+			<runs>
+				<run runNum="1" distance="8.60" duration="4193" />
+			</runs>
+			<notes dayTitle="Easy run">
+				<note noteNum="1" author="Hoya">Took it easy alone.  Never ran into Jim or Corey.  Felt good, but a bot tired from yesterday so ran pretty slow.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-15T00:00:00">
+			<health healthNum="1" weight="139.00" />
+			<runs>
+				<run runNum="1" distance="8.00" duration="3706" shoeID="492" />
+			</runs>
+			<notes dayTitle="Easy with striders">
+				<note noteNum="1" author="Hoya">Ran easy alone - failed to hook up with corey and jim again.  Felt tired, but not too bad.  Legs didn't have any zip to them.  Did 8x striders on dirt.  Felt very smooth and fast during those.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-16T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Rest Day">
+				<note noteNum="1" author="Hoya">Decided to take a day off.  Legs and body are tird and I felt like I needed it.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-17T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4680" shoeID="405" />
+			</runs>
+			<notes dayTitle="Run in CT">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-21T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.00" duration="4200" shoeID="492" />
+			</runs>
+			<notes dayTitle="Run in CT">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-24T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3300" shoeID="405" />
+			</runs>
+			<notes dayTitle="Run in CT">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-26T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Zero">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-27T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Lazy - Tired">
+				<note noteNum="1" author="Hoya">Kids are making me tired.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-28T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="8.60" duration="4256" shoeID="405" />
+			</runs>
+			<notes dayTitle="Back on the Horse">
+				<note noteNum="1" author="Hoya">Got into NYC!!  Easy run in hard rain.  Feel out of sorts, but at least kept my weight down.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-06-30T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="11.10" duration="4921" shoeID="492" />
+			</runs>
+			<notes dayTitle="Relatively hard effort">
+				<note noteNum="1" author="Hoya">It's hot out these days.  Felt ok.  Bridal loops in 19:20, 18:21, 17:35.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-01T00:00:00">
+			<health healthNum="1" weight="138.00" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3480" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy run">
+				<note noteNum="1" author="Hoya">Felt fine.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-02T00:00:00">
+			<health healthNum="1" weight="139.00" />
+			<runs>
+				<run runNum="1" distance="15.70" duration="6845" shoeID="581" />
+			</runs>
+			<notes dayTitle="Long Run">
+				<note noteNum="1" author="Hoya">Ran fairly hard - good effort.  Hot day.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-03T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="5.50" duration="2806" shoeID="582" />
+			</runs>
+			<notes dayTitle="Easy Run">
+				<note noteNum="1" author="Hoya">Legs very sore - took it very easy.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-04T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="13.30" duration="6186" shoeID="405" />
+			</runs>
+			<notes dayTitle="MLR with Stef">
+				<note noteNum="1" author="Hoya">Ended up going farther than I had anticipated.  Felt good, went by very quickly chatting with Stef.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-05T00:00:00">
+			<health healthNum="1" weight="139.50" />
+			<runs>
+				<run runNum="1" distance="12.80" duration="5675" shoeID="581" />
+			</runs>
+			<notes dayTitle="MLR with Jim">
+				<note noteNum="1" author="Hoya">Felt good, if a bit tired.  Started slow and built nicely.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-06T00:00:00">
+			<health healthNum="1" weight="138.00" />
+			<runs>
+				<run runNum="1" distance="6.10" duration="3026" shoeID="492" />
+			</runs>
+			<notes dayTitle="Easy Peasy Recovery Day">
+				<note noteNum="1" author="Hoya">Ran slow and easy.  Rather cool today with light rain.  Felt good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-07T00:00:00">
+			<health healthNum="1" weight="138.00" />
+			<runs>
+				<run runNum="1" distance="11.10" duration="4949" shoeID="582" />
+			</runs>
+			<notes dayTitle="MLR w/ Crew">
+				<note noteNum="1" author="Hoya">MLR with Jim, Stef ... later met up with Corey, Monte and Tom.  I tried to push the pace a little towards the end as they seemed content to waltz today.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-08T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="zero">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-09T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="20.00" duration="9666" shoeID="405" />
+			</runs>
+			<notes dayTitle="Long Run">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-10T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Zero - baby duty">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-11T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.50" duration="4245" shoeID="492" />
+			</runs>
+			<notes dayTitle="Easy and 10 striders">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-12T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="11.00" duration="4684" shoeID="581" />
+			</runs>
+			<notes dayTitle="MLR with crew">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-13T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="7.30" duration="3496" shoeID="405" />
+			</runs>
+			<notes dayTitle="Easy Peasy">
+				<note noteNum="1" author="Hoya">Ran on BPN with Stef, Corey, Russ, and Jim.  Felt fine but humidity is tiring me out.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-14T00:00:00">
+			<health healthNum="1" weight="137.00" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5246" shoeID="581" />
+			</runs>
+			<notes dayTitle="MLR with Crew">
+				<note noteNum="1" author="Hoya">Ran on BPN and extended BP with Jim, Corey, Julia Stamps, and Russ.  Still very humid but a little less.  Feeling zapped from the weather.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-15T00:00:00">
+			<health healthNum="1" weight="138.00" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3756" shoeID="582" />
+			</runs>
+			<notes dayTitle="Really, really slow pushing Lucas">
+				<note noteNum="1" author="Hoya">Headed out a bit later to allow J-Mo to sleep ina bit.  But sun and humidity were in full effect and it was a hot one.  Pushed Lucas and took it really, really slow.  Hope to fresh for the long run tomorrow.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-25T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4544" shoeID="405" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-26T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.00" duration="3490" shoeID="581" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-29T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.80" duration="3438" shoeID="405" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-07-30T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="6.00" duration="2922" shoeID="581" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-01T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.00" duration="4173" shoeID="582" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-03T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.00" duration="4303" shoeID="406" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-07T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.50" duration="4605" shoeID="581" />
+			</runs>
+			<notes dayTitle="Ran easy with Maurice very early">
+				<note noteNum="1" author="Hoya">Out eh door at 4:25.  Today begins the "official" push for the marathon.  Ok, I may have started sucha push in the past - hmmm, but this time I mean it.  =)</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-08T00:00:00">
+			<health healthNum="1" weight="139.50" />
+			<runs>
+				<run runNum="1" distance="9.00" duration="3978" shoeID="405" />
+			</runs>
+			<notes dayTitle="Ran with Jim some">
+				<note noteNum="1" author="Hoya">Nice day, I felt slow (b/c I am!).  Ran with Jim some, he was flying on his 15 miler.  Will get better.  Early day tomorrow.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-09T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.50" duration="4936" shoeID="582" />
+			</runs>
+			<notes dayTitle="Ealy run with Maurice">
+				<note noteNum="1" author="Hoya">Out the door at 4:20.  Starting to feel a little better - not fighting my body as much and felt what can almost be called a cadence.  Keep at it!</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-10T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.30" duration="4993" shoeID="581" />
+			</runs>
+			<notes dayTitle="NIce and Easy - Feeling better">
+				<note noteNum="1" author="Hoya">Out the door at 5:30.  Ran with Stafani most of the way.  Feeling a bit like a runner again.  Slow, but steady aqnd with rythm.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-11T00:00:00">
+			<health healthNum="1" weight="139.50" />
+			<runs>
+				<run runNum="1" distance="10.30" duration="4860" shoeID="492" />
+			</runs>
+			<notes dayTitle="Easy day with Jim and Russ">
+				<note noteNum="1" author="Hoya">Beautiful morning.  Out the door at 6:00.  Felt a bit tired and sore today.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-12T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4884" shoeID="492" />
+			</runs>
+			<notes dayTitle="Easy with Stef">
+				<note noteNum="1" author="Hoya">Stef was doing her long run.  I joined her for some.  Felt fine, if a bit tired.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-13T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Needed a day off.">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-14T00:00:00">
+			<health healthNum="1" weight="139.50" />
+			<runs>
+				<run runNum="1" distance="10.50" duration="4853" shoeID="581" />
+			</runs>
+			<notes dayTitle="Easy with Maurice">
+				<note noteNum="1" author="Hoya">Today starts my 12 weeks with Pfitz 'til NYC.  Keep it rollin'</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-15T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="12.50" duration="5603" />
+			</runs>
+			<notes dayTitle="MLR with Maurice">
+				<note noteNum="1" author="Hoya">Pushed a little hard at times, but fairly easy.  Very humid this morning.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-16T00:00:00">
+			<health healthNum="1" weight="139.00" />
+			<runs>
+				<run runNum="1" distance="7.50" duration="3744" shoeID="410" />
+			</runs>
+			<notes dayTitle="Easy run with David M.">
+				<note noteNum="1" author="Hoya">Out the door at 4:45.  Felt fine, if a bit tired.  A little soreness behind left knee.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-17T00:00:00">
+			<health healthNum="1" weight="139.50" />
+			<runs>
+				<run runNum="1" distance="6.50" duration="2942" shoeID="582" />
+			</runs>
+			<notes dayTitle="Short with Stef">
+				<note noteNum="1" author="Hoya">Ran shorter than I intended too, but had some nice spring in my stride/  Pushed the pace over a few sections, especially the end.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-18T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="13.00" duration="6016" />
+			</runs>
+			<notes dayTitle="MLR">
+				<note noteNum="1" author="Hoya">Ran with Stafan some.  Very humid, felt ok, not great.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-19T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.50" duration="6044" />
+			</runs>
+			<notes dayTitle="Easy Run with Stef">
+				<note noteNum="1" author="Hoya">Felt pretty strong today.  Was an easy pace.  Went a little farther than I intended.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-20T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="20.00" duration="9300" shoeID="581" />
+			</runs>
+			<notes dayTitle="Long Run">
+				<note noteNum="1" author="Hoya">Ran well.  Started slow running with Stef.  Later joined Jim and ran harder.  Felt fine.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-21T00:00:00">
+			<health healthNum="1" />
+			<notes dayTitle="Needed a day off.">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-22T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4612" />
+			</runs>
+			<notes dayTitle="With Maurice, pushed a little">
+				<note noteNum="1" author="Hoya">Felt quite good.  Probably wasn't so bad that I took yesterday off, as much as I didn't want to.  Legs a little sore from Sunday, but not much.  Maurice was struggling to keep up most of the run, don't think he wanted to push the pace at all today.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-23T00:00:00">
+			<health healthNum="1" weight="139.00" />
+			<runs>
+				<run runNum="1" distance="8.30" duration="3900" />
+			</runs>
+			<notes dayTitle="Easy alone">
+				<note noteNum="1" author="Hoya">Feeling ok but a bit tired.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-24T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="13.00" duration="5650" />
+			</runs>
+			<notes dayTitle="LT workout (4 miles@1/2 MP)">
+				<note noteNum="1" author="Hoya">Ran farther that I intended to, but that's ok by me.  Met up with Stef and ran easy for a while.  Then I did the middle loop in 26:51 (6:38).  Pace certainly felt harder than it should.  Continued work on my speed will hopefully improve the way I feel at this pace.  I have a ways to go if I want to run the 'thon at 6:30 pace!</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-25T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.50" duration="5712" shoeID="581" />
+			</runs>
+			<notes dayTitle="Easy Effort w/ the gang">
+				<note noteNum="1" author="Hoya">Ran well and felt good.  Ran with Stef, Jim, Thom, Allan (not Rubin), and Kary.  Nice day.  Take it easy tomorrow and then have a great long run Sunday.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-26T00:00:00">
+			<health healthNum="1" weight="138.00" />
+			<runs>
+				<run runNum="1" distance="8.50" duration="3940" />
+			</runs>
+			<notes dayTitle="Easy with big crew">
+				<note noteNum="1" author="Hoya">Ran fairly easy, but actually pushed a bit more than expected b/c I picked up Allen Rubin.  Also ran with Stef and David M.  Felt good.  Was pretty tired later in the day after spending the day walking around the city with my folks.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-27T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="20.50" duration="9370" shoeID="582" />
+			</runs>
+			<notes dayTitle="long run">
+				<note noteNum="1" author="Hoya">ran really well and pushed hard at times, especially the last few miles.  ran with stef and david maurice.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-28T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="8.60" duration="4126" />
+			</runs>
+			<notes dayTitle="Easy Run at Lunch">
+				<note noteNum="1" author="Hoya">Easy run at lunch.  Couldn't manage to get up in time.  Felt fine, did 2x BPN.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-29T00:00:00">
+			<health healthNum="1" weight="138.00" pulse="52" />
+			<runs>
+				<run runNum="1" distance="13.00" duration="5963" />
+			</runs>
+			<notes dayTitle="MLR">
+				<note noteNum="1" author="Hoya">Felt ok.  Out the door at 4:15 and back by 6:00.  Tired but ok.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-30T00:00:00">
+			<health healthNum="1" weight="137.50" />
+			<runs>
+				<run runNum="1" distance="14.00" duration="6165" shoeID="581" />
+			</runs>
+			<notes dayTitle="MLR with Gang">
+				<note noteNum="1" author="Hoya">Was just going to run easy today, but had an oppurtunity to run with the faster guys this morning so I took advantage.  Group was as big as 6 people at one point zipping around the BPN.  Lots of funa dn laughs this morning.  Weather was cooler and slight drizzle.  The only times sections I have were in the middle 18:55 (7:34), 18:10 (7:16)BPNs.  Pushed harder after that.  In the end it was Jim, Corey and Me.  Got to see Brad this morning and ran for a while with Neil too.  He was off to a conference in Philly and was debating trying to get in another loop and risk missing his train.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-08-31T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4834" />
+			</runs>
+			<notes dayTitle="Not Easy Enough - Trashed">
+				<note noteNum="1" author="Hoya">Ran with Jim and Russ (with Thom for a while too).  Legs are trashed.  Did 9x100m striders.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-09-01T00:00:00">
+			<health healthNum="1" weight="138.00" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5588" shoeID="582" />
+			</runs>
+			<notes dayTitle="Easy run with Jim and Thom">
+				<note noteNum="1" author="Hoya">Felt good if a bit tired.  Gets were pretty shot.  After we met up with Thom he picked up the pace - more than I wanted too, but I wasn't complaining.  Later in the day began to feel more rested.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-09-02T00:00:00">
+			<health healthNum="1" weight="137.50" />
+			<runs>
+				<run runNum="1" distance="21.00" duration="9180" shoeID="581" />
+			</runs>
+			<notes dayTitle="Inwood loop with Jay, Brad and Corey">
+				<note noteNum="1" author="Hoya">Tough run - pushed the pace on the way home.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-09-04T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.00" duration="4205" />
+			</runs>
+			<notes dayTitle="Easy pushing Lucas">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-09-07T00:00:00">
+			<health healthNum="1" weight="137.50" />
+			<runs>
+				<run runNum="1" distance="11.50" duration="5221" />
+			</runs>
+			<notes dayTitle="Easy with Jim and Corey">
+				<note noteNum="1" author="Hoya">Beautiful weather.  Weird ache in groin area.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-09-09T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" shoeID="410" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-09-12T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="13.00" shoeID="410" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-09-14T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.00" shoeID="410" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-09-16T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" shoeID="410" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-09-30T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="4.00" duration="1938" shoeID="492" />
+			</runs>
+			<notes dayTitle="First run in long time.">
+				<note noteNum="1" author="Hoya">Felt aweful.  Out of shape and hurting.  Lifted too.  Have some time to run again now - hope to keep it together for a little while.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-10-29T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="4.20" duration="2100" shoeID="581" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-10-31T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="4.00" duration="1920" shoeID="406" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-02T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.20" duration="3492" shoeID="582" />
+				<run runNum="2" distance="1.00" duration="545" shoeID="492" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">easy with audrey.  rainy and cold.
+
+In afternoon did 3x22 flights of staris in building.  3:10, 3:05, 2:50 ... tough.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-03T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="3.80" duration="1800" shoeID="492" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Easy along east river - cold day.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-04T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.30" duration="3531" shoeID="406" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-05T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.50" duration="3717" shoeID="581" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-06T00:00:00">
+			<health healthNum="1" pulse="56" />
+			<runs>
+				<run runNum="1" distance="8.50" duration="4231" shoeID="582" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-07T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="4.30" duration="1792" shoeID="581" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya"></note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-08T00:00:00">
+			<health healthNum="1" weight="137.50" />
+			<runs>
+				<run runNum="1" distance="8.50" duration="3742" shoeID="406" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Ran with Matt for first time, and met Rodney (Australian hairdresser and former Australian Rules Rudby player - also married to a PR woman), and Steve.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-09T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="7.30" duration="3696" shoeID="582" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Felt pretty slow and tired today.  Gorgeous morning - very warm.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-10T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="9.50" duration="4171" shoeID="406" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Hard effort with Matt, Eric, and Rodney.  Ran the Res loop plus a small detour in 9:46.  Hard effort at 6's pace.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-11T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="4.20" duration="2077" shoeID="581" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Easy alone</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-12T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="11.00" duration="5130" shoeID="582" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Fairly easy with Eric, Rich and Rodney.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-13T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="3.50" duration="1690" shoeID="581" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Easy alone along east river.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-14T00:00:00">
+			<health healthNum="1" weight="139.00" pulse="53" />
+			<runs>
+				<run runNum="1" distance="8.00" duration="3377" shoeID="581" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Hard effort included 3 miles in 18:46 (lower 3 mile course) with Matt, Rodney, Eric, and Rich.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-15T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="8.50" duration="3673" shoeID="582" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Moderate pace with Matt and Rodney.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-16T00:00:00">
+			<health healthNum="1" weight="138.00" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4860" shoeID="492" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Easy, easy with Stef.  Good to see her again.  McQuade was going to show but never made it.  Tough workout tomorrow - looking forward to it!</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-17T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="11.50" duration="4980" shoeID="406" />
+			</runs>
+			<notes dayTitle="Tempo Run">
+				<note noteNum="1" author="Hoya">Hard effort with Rodney, Eric, Steve, and Matt.  9 miles at tempo.  First 6 miles were at 6:45 pace, and last 3 miles were 6:33, 6:32, 6:27.  Rodney is one tough son of a bitch - couldn't hang with him over the last 3/4 miles as he took off.  He's really tough mentally.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-18T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="6.60" duration="3069" shoeID="492" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">easy w/ rich, rodney &amp; matt.  felt very good.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-19T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="12.60" duration="5839" shoeID="582" />
+			</runs>
+			<notes dayTitle="">
+				<note noteNum="1" author="Hoya">Easy with Rich, Rodney, and Eric.  Coll beautiful morning.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-20T00:00:00">
+			<health healthNum="1" weight="138.50" />
+			<runs>
+				<run runNum="1" distance="8.00" duration="3603" shoeID="582" />
+			</runs>
+			<notes dayTitle="Easy - 2">
+				<note noteNum="1" author="Hoya">Ran easy with Matt - he runs fairly hard on my easy days ... oh well.  Ran with Julia Stamps for a bit.  SHe talked about her NYC marathon and her race this past weekend.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-21T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4517" shoeID="406" />
+			</runs>
+			<notes dayTitle="1 mile and 1/2 mile repeats - 3">
+				<note noteNum="1" author="Hoya">Ran these repeats very poorly, seem to have no speed.  All were around 6:00/mile pace.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-22T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="3.80" duration="1845" shoeID="582" />
+			</runs>
+			<notes dayTitle="Easy - 1">
+				<note noteNum="1" author="Hoya">Very easy along the east river.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-23T00:00:00">
+			<health healthNum="1" weight="137.50" />
+			<runs>
+				<run runNum="1" distance="12.00" duration="5087" shoeID="581" />
+			</runs>
+			<notes dayTitle="9 mile Tempo Run - 4">
+				<note noteNum="1" author="Hoya">Hard effort in hard rain with Eric and Rodney.  Ran 9 mile tempo (big loop and lower loop) in 1:01:09.  Last 3 miles in 6:26, 6:22, 6:21.  Pulled away from Rodney this time with about 3 to 4 miles to go and kept and pulled away to 30 sec buffer.  Eric went home after 6 miles.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-24T00:00:00">
+			<health healthNum="1" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4745" shoeID="492" />
+			</runs>
+			<notes dayTitle="Easy - 2">
+				<note noteNum="1" author="Hoya">Easy with Rodney and Steve.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-25T00:00:00">
+			<health healthNum="1" weight="137.50" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4487" shoeID="492" />
+			</runs>
+			<notes dayTitle="Easy with pick-up - 3">
+				<note noteNum="1" author="Hoya">Ran with Rodney.  Ran easy except for one reservoir (plus construction detour) in 9:47.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-26T00:00:00">
+			<health healthNum="1" weight="137.50" />
+			<runs>
+				<run runNum="1" distance="17.00" duration="7579" shoeID="581" />
+			</runs>
+			<notes dayTitle="Long Run - 4">
+				<note noteNum="1" author="Hoya">Ran long at moderate effort - Matt pushing the pace a bit.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-27T00:00:00">
+			<health healthNum="1" weight="140.00" />
+			<runs>
+				<run runNum="1" distance="3.80" duration="1850" shoeID="582" />
+			</runs>
+			<notes dayTitle="Super Easy - 1">
+				<note noteNum="1" author="Hoya">Felt very tired from a hard week and this was just what I needed.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-28T00:00:00">
+			<health healthNum="1" weight="139.00" />
+			<runs>
+				<run runNum="1" distance="8.00" duration="3237" shoeID="406" />
+			</runs>
+			<notes dayTitle="3 mile interval - 4">
+				<note noteNum="1" author="Hoya">Included 3 mile interval in 17:49.  Miles were in 6:00, 5:56, 5:53.  Felt good, last mile damn tough.  Caught Rodney in 2nd mile and held him off.  Matt led all of us fairly easily.</note>
+			</notes>
+		</workoutDay>
+		<workoutDay date="2006-11-29T00:00:00">
+			<health healthNum="1" weight="138.00" pulse="48" />
+			<runs>
+				<run runNum="1" distance="10.00" duration="4525" shoeID="582" />
+			</runs>
+			<notes dayTitle="Medium Pace - 3">
+				<note noteNum="1" author="Hoya">Dirt trail run with Matt, Eric, Rodney, and Kim.  Felt good.</note>
+			</notes>
+		</workoutDay>
+	</workouts>
+</log>
