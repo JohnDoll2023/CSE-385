@@ -1,0 +1,6 @@
+﻿drop table if exists UsersCREATE TABLE Users (	userID		int		primary key		identity,	userName	varchar(100),	password	varchar(100));drop proc if exists spLoginGOCREATE PROC	spLogin	@un	varchar(100),	@pw	varchar(100)AS BEGIN	SELECT * FROM Users WHERE userName = @un AND password = @pwEND
+
+insert into Users	values	 ('tom','mypw')			,('acasson0', 'fN3kTOV')			,('mhacksby1', 'ZKtI3V')			,('cmacellen2', 'xO2y97UeK98')			,('pburnall3', 'OC47rdRi')			,('oantuoni4', '4C7RkT')			,('dlacoste5', 'UTOIdTOVQ')			,('jgummie6', 'njvolqMKE3u')			,('hwindley7', 'qTyjmTOa')			,('edegan8', 'PeZGmtSu8M')			,('pbardell9', 'dqhbX2POr')			,('csedgemorea', 'bqUmxSlc')			,('lreinhardtb', 'SBARTPjAV')			,('wgoudac', '05gfuy')			,('rsurmanwellsd', 'XXW3763kQHNj')			,('rodowlinge', 'VThJauwxGJ')			,('tworsnopf', 'yh9xTew9xUc')			,('rtitcumbg', 'ehfS9iK')			,('nallsobrookh', 'bMB8Nash')			,('wtuisoni', 'vSTtKB')			,('oapdellj', 'VXZsusiBQFeI')
+
+--select * from users where username = 'tom' and password = '' or 1=1
+select * from users where username = 'tom' and password = 'mypw'
